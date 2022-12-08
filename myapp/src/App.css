@@ -1,0 +1,97 @@
+.display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.display>p>img{
+  width: 500px;
+  border-radius: 20px;
+}
+
+.recipe{
+  text-align: center;
+  width: 50%;
+  line-height: 30px;
+  text-justify: auto;
+}
+
+button{
+  background-color: purple;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid purple;
+  margin: 10px;
+}
+
+h2{
+  color: #C3456C;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+ background-color: black;
+ color: white;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color:#C3456C;
+
+
+}
+
+input,textarea{
+  background-color: black;
+  border-radius: 10px;
+  text-transform: capitalize;
+  border: 1px solid black;
+
+}
+
+
+ul{
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  display: flex;
+  padding:10px;
+  list-style: none;
+  justify-content: center;
+
+  
+}
+a{
+  text-decoration: none;
+  padding:10px;
+  color: white;
+  background-color: purple;
+  border: 1px solid  purple;
+  border-radius: 20px;
+  font-style: italic;
+ 
+}
+
+a:hover{
+  cursor: pointer;
+  background-color: #C3456C ;
+}
+a:active{
+  background-color:#C3456C ;
+}
+
+.cakes{
+  text-decoration: underline;
+  font-style: italic;
+  color:purple ;
+  text-align: center;
+}
